@@ -1,0 +1,242 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 1140px) {
+
+
+}
+
+@media (max-width: 992px) {
+  #travel {
+    .travel {
+      &--nature {
+        button {
+          width: 339px;
+        }
+
+        &__image {
+          img {
+            width: 99%;
+            margin-bottom: -4.2px;
+            margin-left: 10px;
+          }
+        }
+
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 820px) {
+  #travel {
+    .travel {
+      &--nature {
+        button {
+          width: 285px !important;
+          height: 40px;
+          margin-top: 18px;
+          font-size: 15px;
+        }
+        &__image{
+          img{
+            width: 99% !important;
+            margin-left: 6px !important;
+            height: 375px !important;
+            border-radius: 3px !important;
+          }
+        }
+      }
+    }
+  }
+
+  #geography{
+    .geography{
+      h1{
+        font-size: 29px !important;
+      }
+      &--block{
+        &__text1{
+          h2{
+            font-size: 24px !important;
+          }
+        }
+      }
+    }
+  }
+
+  #package{
+    .package{
+      &--title{
+        width: 221px !important;
+      }
+      h1{
+
+      }
+      p{
+
+      }
+      &--btn{
+        button{
+          width: 180px !important;
+          font-size: 14px !important;
+        }
+        h1{
+          padding: 2px 0 !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  
+}
+
+@media (max-width: 650px) {
+  #miss{
+    .miss{
+      &--fon{
+        width: 566px!important;
+        img{
+          margin-left: 83% !important;
+        }
+        flex-direction: column;
+        &__left{
+          padding-left: 20px !important;
+        }
+        &__man  {
+          p{
+            padding-left: 20px !important;
+          }
+        }
+      }
+
+    }
+  }
+
+  #travel{
+    .travel{
+      h1{
+        font-size: 28px!important;
+      }
+      &--nature{
+        padding-left: 39px!important;
+        flex-direction: column!important;
+        button{
+          width: 239px;
+          margin-top: 27px !important;
+        }
+        &__image{
+         img{
+           margin-bottom: 0.8px!important;
+           padding-top: 20px!important;
+           width: 98% !important;
+           height: 395px !important;
+           border-radius: 58px !important;
+
+         }
+        }
+      }
+    }
+  }
+
+  #geography{
+    .geography{
+      h1{
+        font-size: 18px !important;
+      }
+      &--block{
+        &__text2{
+          h3{
+            font-size: 15px!important;
+          }
+        }
+        &__text1{
+        h2{
+           font-size: 18px !important;
+            }
+
+        }
+      }
+    }
+  }
+
+  #package{
+    .package{
+      &--block{
+        flex-direction: column!important;
+      }
+      &--title{
+        margin: 20px!important;
+        height: 410px!important;
+        flex-direction: column!important;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  #inspect{
+    .inspect{
+      &--block{
+        flex-direction: column!important;
+        &__title{
+
+           &--btn{
+             flex-direction: column !important;
+             button{
+               margin-top: 20px!important;
+             }
+           }
+
+          &__input{
+            input{
+              width: 335px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #miss{
+    .miss{
+      &--fon{
+        img{
+          margin-left: 13% !important;
+        }
+      }
+    }
+  }
+
+  #about{
+    .about{
+      h1{
+        font-size: 22px!important;
+      }
+      &--block{
+        width: 475px!important;
+        height: 231px!important;
+        font-size: 16px !important;      }
+    }
+  }
+
+  #footer{
+    .footer{
+      flex-direction: column!important;
+    }
+  }
+  
+}
+

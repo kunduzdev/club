@@ -1,0 +1,22 @@
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin btn{
+  padding: 10px 25px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  &:hover{
+    background: transparent;
+    transform: scale(1.1);
+    color: blue;
+    cursor: pointer;
+  }
+}
